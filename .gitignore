@@ -1,0 +1,32 @@
+node_modules/
+dist/
+*.log
+.env
+.env.local
+.DS_Store
+coverage/
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# Python (mimoskill helper scripts) — bytecode caches, virtual envs
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# npm pack output (don't commit tarballs)
+*.tgz
+
+# docker-compose bind mount target (contains sqlite + .env + providers.json with keys)
+.mimo2codex/
+
+config.yaml
+
+# desktop shell build artifacts
+package/desktop/dist/
+package/desktop/node_modules/
+package/desktop/resources/icons/
+package/desktop/resources/sidecar/
+package/desktop/release/
